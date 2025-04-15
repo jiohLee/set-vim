@@ -1,1 +1,1 @@
-# set-vim
+# Shell script for vim and plugins
