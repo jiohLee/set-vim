@@ -32,6 +32,8 @@ set ts=4
 set sw=4
 set ls=2
 set cindent
+
+set t_Co=256
 syntax on
 
 " set colorscheme
