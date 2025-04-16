@@ -27,12 +27,12 @@ vim +PluginInstall +qall
 
 cat << 'EOF' >> ~/.vimrc
 
-syntax on
 set nu
 set ts=4
 set sw=4
 set ls=2
 set cindent
+syntax on
 
 " set colorscheme
 colorscheme onehalfdark
