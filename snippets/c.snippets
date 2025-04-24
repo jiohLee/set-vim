@@ -61,11 +61,11 @@ snippet nocxx
 ## Control Statements
 # if
 snippet if
-	if (${1:true}) {
+	if (${1:1}) {
 		${0:${VISUAL}}
 	}
 snippet ife
-	if (${1:true}) {
+	if (${1:1}) {
 		${2:${VISUAL}}
 	} else {
 		${0}
@@ -77,12 +77,12 @@ snippet el
 	}
 # else if
 snippet elif
-	else if (${1:true}) {
+	else if (${1:1}) {
 		${0:${VISUAL}}
 	}
 # ifi
 snippet ifi
-	if (${1:true}) ${0};
+	if (${1:1}) ${0};
 # ternary
 snippet t Ternary: `condition ? true : false`
 	$1 ? $2 : $0
@@ -129,7 +129,7 @@ snippet wh
 		${0:${VISUAL}}
 	}
 snippet wht
-	while (true) {
+	while (${1:1}) {
 		${0:${VISUAL}}
 	}
 # do... while
